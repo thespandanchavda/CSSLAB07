@@ -1,0 +1,93 @@
+      /* Reset default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      /* Style for the heading 1 */
+      h1 {
+        background-color:rgb(245, 70, 70);
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        text-shadow: 5px 2px 1.4px whitesmoke;
+        font-family: 'Delicious Handrawn', cursive;
+      }
+      
+      /* Style for the section after heading 1 */
+      section {
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+      }
+      
+      /* Style for the image */
+      section img {
+        width: 40%;
+        margin-right: 20px;
+        height: 270px;
+      }
+      
+      /* Style for the paragraph */
+        section p {
+        width: 60%;
+        height: 270px;
+        background-color: rgb(95, 95, 249);
+      }
+      .paragraphs {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      
+      /* Style for p1 */
+      .p1 {
+        width: 50%;
+      }
+      
+      /* Style for p2 and p3 */
+      .p2,
+      .p3 {
+        width: 25%;
+      }
+      
+      /* Shared style for all paragraphs */
+      .paragraphs p {
+        border: 5px solid #fff;
+        padding: 20px;
+        background-color: rgb(216, 216, 79);
+      }
+      .last {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      
+      /* Style for p1 */
+      #p1 {
+        width: 20%;
+        background-color: rgb(245, 70, 70);
+      }
+      
+      /* Style for p2 and p3 */
+      #p2,
+      #p3 {
+        width: 40%;
+        background-color: rgb(114, 246, 114);
+      }
+      .last p {
+        border: 2px solid #fff;
+        padding: 10px;
+        height: 80px;
+        text-align: center;
+        padding-top: 30px;
+
+      }
+      
+
+      
+      
+      
